@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.login_body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    background-color: #FFFFE0;
+}
+
+.login_header {
+    background-color: rgb(0, 191, 255);
+    font-family: Impact, fantasy;
+    color: rgb(255, 250, 240);
+    font-size: 36px;
+    height: 80px;
+    text-shadow: 3px 2px 2px #000;
+    display: flex;
+    align-items: center;
+}
+
+.signup_form {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 140px;
+    margin-top: 300px;
+    border-radius: 25px;
+    background :  rgba(255, 255, 255, 0.738);
+    /* background: #C8F5C8; */
+    left: -400px;
+    position: relative;
+}
+.login_form_title {
+    font-family: 'Bebas Neue', cursive;
+    /* color: #54a350; */
+    color: #000;
+    font-size: 36px;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: -20px;
+    background: none;
+    position: absolute;
+}
+
+.login-group {
+    width: 100%;
+    margin-left: 9%;
+    margin-bottom: 30px;
+    border: 0;
+    position: relative;
+
+}
+
+.login-control {
+    height: 25px;
+    width: 230px;
+    border-radius: 10px;
+    vertical-align: center;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 2px solid #cccccc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding-left: 9px;
+
+}
+.signup-label {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    margin-left: -25px;
+    display: inline-block;
+    width: 150px;
+    color: #000;
+    text-align: right;
+}
+
+.login_inputs {
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: -30px;
+}
+
+.signup_button {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    color: #382b22;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -10%;
+    width: 100px;
+    margin-left: -10px;
+    margin-right: 20px;
+    height: 53px;
+    background-color: #fff0f0;
+    border: 2px solid #b18597;
+    border-radius: 0.75em;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    right: 30px;
+}
+
+.signup_button::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f9c4d2;
+    border-radius: inherit;
+    box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 0.15s, box-shadow 0.15s;
+
+}
+
+.signup_button:hover {
+    background: #ffe9e9;
+    transform: translate(0, 0.25em);
+}
+
+.signup_button:hover::before {
+    box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+    transform: translate3d(0, 0.5em, -1em);
+}
+
+.signup_button:active {
+    background: #ffe9e9;
+    transform: translate(0em, 0.75em);
+}
+
+.signup_button:active::before {
+    box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+    transform: translate3d(0, 0, -1em);
+}
+
+.button_position {
+    position: absolute;
+   margin-left: 100px;
+    margin-top:10px;
+}
+
+.button_position_2 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+
+}
+
+.n_2 {
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 0px;
+    height: 50px;
+}
+
+.error {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    width: 400px;
+    height: 25px;
+    text-align: center;
+    color: #FF4500;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 230px;
+}
